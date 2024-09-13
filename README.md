@@ -49,3 +49,21 @@ booking Flow
 1. On a successful booking, status code 200 should be returned
 
 2. Perform a GET Reservations call for the user and ensure that the successful bookin is listed there
+
+
+
+#### Verify that a new user can be registered and login using APIs of QTrip
+
+1. Use the register API to register a new user
+
+2. Use the Login API to login using the registered user
+
+3. Validate that the login was successful
+
+4. Verify that the token and user id is returned for login
+
+1. The Register API should return a status code for 201
+
+2. After successful login, status code 201 must be returned. The Response body should contain :
+
+Success = true

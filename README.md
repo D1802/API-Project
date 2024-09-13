@@ -1,4 +1,4 @@
-##User Registration
+## User Registration
 
 ###Verify that a new user can be registered and login using APIs of QTrip
 
@@ -22,7 +22,7 @@ user ID and token details
 
 Search City
 
-####Verify that the search City API Returns the correct number of results
+#### Verify that the search City API Returns the correct number of results
 
 1. Search for "beng" using the cities search API
 
@@ -38,7 +38,7 @@ Search City
 
 booking Flow
 
-####Verify that a reservation can be made using the QTrip API
+#### Verify that a reservation can be made using the QTrip API
 
 1. Create a new user using API and login
 
